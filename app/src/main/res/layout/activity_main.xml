@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <skin.support.widget.SkinAutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/activity_main_center"/>
+        <ViewStub
+            android:id="@+id/view_stub_guide"
+            android:layout="@layout/long_distance_guide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </skin.support.widget.SkinAutoRelativeLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="440dp">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/text_color_65"
+        android:id="@+id/dsguide_viewpager_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/ds_release_notice_pic_title1"/>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/dsguide_viewpager_views"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/dsguide_viewpager_dots"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>

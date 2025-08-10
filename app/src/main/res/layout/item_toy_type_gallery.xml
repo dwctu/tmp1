@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <RadioButton
+        android:textSize="14sp"
+        android:textColor="@color/music_type_text_selector"
+        android:gravity="center"
+        android:id="@+id/toy_type_name"
+        android:background="@drawable/music_type_list_selector"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:button="@null"
+        android:minWidth="55dp"
+        android:text="@string/music_artist_list"/>
+</LinearLayout>

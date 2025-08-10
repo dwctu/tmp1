@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.MyActionBar
+        android:id="@+id/actionbar"
+        android:background="#d1347e"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        bar:back="true"
+        bar:title="@string/common_help"/>
+    <TextView
+        android:id="@+id/tv_debug"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

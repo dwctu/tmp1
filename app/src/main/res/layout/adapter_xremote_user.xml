@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/root_view"
+    android:background="@color/lvs_ui_standard_systemBackground2"
+    android:padding="48px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rRadius="24px">
+    <com.wear.widget.roundwidget.SkinRoundAutoLinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <com.wear.widget.roundwidget.SkinRoundTextView
+            android:textAppearance="@style/lvs_ui_standard_text_title2"
+            android:textColor="@color/pattern_system_text_color"
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.wear.widget.roundwidget.SkinRoundTextView
+            android:textAppearance="@style/lvs_ui_standard_text_caption"
+            android:textColor="@color/lvs_ui_standard_systemText5"
+            android:id="@+id/tv_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"/>
+    </com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>
+    <skin.support.widget.SkinCompatImageView
+        android:id="@+id/iv_select"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_marginLeft="32px"
+        android:src="@drawable/icon_xremote_authorized_unselect"/>
+</com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>

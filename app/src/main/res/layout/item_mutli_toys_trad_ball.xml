@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <com.wear.widget.control.multiToys.MultiTradPercentSeekBar
+        android:id="@+id/item_multi_trad_seekbar"
+        android:layout_width="@dimen/mutli_toys_trad_seekbar_width"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

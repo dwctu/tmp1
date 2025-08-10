@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_music_local"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.wear.widget.recycler.SwipeRecyclerView
+            android:id="@+id/swipeRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/music_list_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="525dp"
+                android:layout_marginTop="150dp">
+                <ImageView
+                    android:textSize="25sp"
+                    android:id="@+id/music_list_empty_no"
+                    android:layout_width="185dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/music_list_empty_img"
+                    android:text="@string/music_all_no"/>
+                <TextView
+                    android:textSize="15sp"
+                    android:textColor="@color/text_color_45"
+                    android:gravity="center"
+                    android:id="@+id/music_list_empty_no_tip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/music_my_library_empty_andriod"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>

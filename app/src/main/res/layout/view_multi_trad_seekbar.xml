@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/multi_seekbar_bg_layout"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/multi_seekbar_bg_gray"
+            android:background="@drawable/multi_trad_seekbar_gray_bg"
+            android:layout_width="11dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/multi_seekbar_bg"
+            android:background="@drawable/multi_trad_seekbar_bg"
+            android:layout_width="11dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <com.wear.widget.control.multiToys.MultiControlBallView
+        android:id="@+id/multi_seekbar_slid"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

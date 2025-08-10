@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:SwitchButton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toy_add_hight">
+    <RelativeLayout
+        android:id="@+id/add_item"
+        android:background="@drawable/toy_list_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp">
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/toy_card_list_bg"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/toy_add"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/toy_add"
+            android:layout_toRightOf="@+id/iv"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

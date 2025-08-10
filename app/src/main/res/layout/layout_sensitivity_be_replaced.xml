@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/ll_sensitivity_tip"
+    android:background="@color/gift_card_chat_background_color"
+    android:paddingTop="11dp"
+    android:paddingBottom="11dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="8dp">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/text_color_85"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tip_sensitivity_removed"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/iv_sensitivity_tip_close"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nav_login_close"/>
+</com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>

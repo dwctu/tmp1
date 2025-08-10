@@ -1,0 +1,16 @@
+package org.webrtc;
+
+import androidx.annotation.Nullable;
+
+/* loaded from: classes5.dex */
+public interface VideoEncoderFactory {
+    @Nullable
+    @CalledByNative
+    VideoEncoder createEncoder(VideoCodecInfo videoCodecInfo);
+
+    @CalledByNative
+    VideoCodecInfo[] getImplementations();
+
+    @CalledByNative
+    VideoCodecInfo[] getSupportedCodecs();
+}

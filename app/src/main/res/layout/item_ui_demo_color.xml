@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/cl_color"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="10dp"
+    style="@style/lvs_ui_standard_radius_500px">
+    <TextView
+        android:textAppearance="@style/lvs_ui_standard_stroke_button_text_14sp"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_color_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/lvs_ui_standard_common_style"/>
+    <TextView
+        android:textAppearance="@style/lvs_ui_standard_fill_button_text_14sp"
+        android:id="@+id/tv_color_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        style="@style/lvs_ui_standard_common_style"/>
+    <TextView
+        android:textAppearance="@style/lvs_ui_standard_fill_button_text_14sp"
+        android:id="@+id/tv_color_2"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toRightOf="@+id/tv_color_1"
+        app:layout_constraintTop_toTopOf="@+id/tv_color_1"
+        style="@style/lvs_ui_standard_common_style"/>
+</com.wear.widget.roundwidget.SkinRoundConstraintLayout>

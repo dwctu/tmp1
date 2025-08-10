@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_54">
+    <ImageView
+        android:id="@+id/mytoy_item1_funcationbg"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:src="@drawable/mytoy_toybg"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textSize="@dimen/dp_12"
+        android:textColor="@color/text_toy_strength_save"
+        android:id="@+id/mytoy_item1_funcationname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mytoy_item1_funcationbg"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_toEndOf="@+id/mytoy_item1_funcationbg"/>
+    <com.wear.main.toy.newtoy.seekbar.SignSeekBar
+        android:id="@+id/mytoy_item1_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_54"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/mytoy_item1_funcationbg"
+        app:ssb_second_track_color="#ff2d89"
+        app:ssb_second_track_size="3dp"
+        app:ssb_show_sign="true"
+        app:ssb_show_sign_in_touch="true"
+        app:ssb_sign_color="@color/item_pattern_toy_name_2"
+        app:ssb_sign_height="@dimen/dp_30"
+        app:ssb_sign_text_color="#ff2d89"
+        app:ssb_sign_width="@dimen/dp_40"
+        app:ssb_thumb_color="@color/white"
+        app:ssb_thumb_radius="@dimen/dp_10"
+        app:ssb_thumb_radius_on_dragging="@dimen/dp_10"
+        app:ssb_touch_to_seek="true"
+        app:ssb_track_color="@color/report_edittext_box_stroke_color"
+        app:ssb_track_size="3dp"/>
+</RelativeLayout>

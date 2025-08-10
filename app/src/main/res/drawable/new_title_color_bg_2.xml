@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/lvs_ui_standard_systemBackground"/>
+    <item android:gravity="top">
+        <bitmap
+            android:gravity="top"
+            android:src="@drawable/test_2"/>
+    </item>
+</layer-list>

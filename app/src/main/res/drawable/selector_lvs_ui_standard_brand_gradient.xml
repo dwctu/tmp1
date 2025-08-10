@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/shape_lvs_ui_standard_brand_gradient_touch"/>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/lvs_ui_standard_systemFillWeak"/>
+        </shape>
+    </item>
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/shape_lvs_ui_standard_brand_gradient"/>
+</selector>

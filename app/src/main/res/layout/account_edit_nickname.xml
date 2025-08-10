@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.MyActionBar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        bar:back="true"
+        bar:title="@string/account_nickname_change"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_bg_edit_nick_name"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:textSize="16sp"
+            android:textColor="@color/text_color_65"
+            android:textColorHint="@color/text_color_25"
+            android:id="@+id/current_nickname"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="@string/account_nickname_change"
+            android:singleLine="true"
+            android:maxLength="30"
+            android:layout_weight="1"
+            android:textCursorDrawable="@null"/>
+        <ImageView
+            android:id="@+id/content_delete"
+            android:visibility="gone"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/content_icon_delete_input"/>
+    </LinearLayout>
+</LinearLayout>

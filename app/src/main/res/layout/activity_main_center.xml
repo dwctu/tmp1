@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/screan_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.FitSystemWindowViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <com.wear.widget.MainTabLayout
+        android:id="@+id/tab_layout"
+        android:background="@color/lvs_ui_standard_systemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        app:tabBackground="@null"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="0dp"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="0dp"
+        app:tabRippleColor="@null"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/tip_look_interactive_video_F7F8F9"/>
+    <corners android:radius="@dimen/dp10"/>
+</shape>

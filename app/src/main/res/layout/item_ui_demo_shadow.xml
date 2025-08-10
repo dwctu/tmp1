@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/cl_color"
+    android:background="@color/lvs_ui_standard_systemBackground2"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <com.wear.widget.shadow.ShadowLayout
+        android:id="@+id/sfl_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/lvs_ui_standard_systemShadowMiddleMedium">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </com.wear.widget.shadow.ShadowLayout>
+    <TextView
+        android:textColor="@color/lvs_ui_standard_systemText"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sfl_shadow"
+        app:layout_constraintLeft_toRightOf="@+id/sfl_shadow"
+        app:layout_constraintTop_toTopOf="@+id/sfl_shadow"
+        style="@style/lvs_ui_standard_common_style"/>
+</com.wear.widget.roundwidget.SkinRoundConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinCompatLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/dialog_fragment_chat_action_menu_0"
+    android:background="@drawable/bg_dialog_chat_action_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/dp_22"
+            android:layout_height="@dimen/dp_22"
+            android:src="@drawable/nav_close"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_16"/>
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/lvs_ui_standard_systemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_panel_tools"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <View
+        android:background="@color/lvs_ui_standard_systemStrokeRegular"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</skin.support.widget.SkinCompatLinearLayout>

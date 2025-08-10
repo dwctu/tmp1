@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:background="@color/window_background_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="14sp"
+        android:gravity="center"
+        android:id="@+id/choose_music_notice"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        android:layout_alignParentBottom="true"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/choose_music_notice">
+        <com.wear.widget.MyActionBar
+            android:id="@+id/actionbar"
+            android:background="#d1347e"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            bar:back="true"
+            bar:title="@string/music_tab_playlist"
+            bar:withTab="false"/>
+        <com.yydcdut.sdlv.SlideAndDragListView
+            android:id="@+id/music_data_list"
+            android:background="@color/chat_background_light"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@android:color/transparent"
+            android:cacheColorHint="@color/window_background_light"
+            android:divider="#20000000"
+            android:dividerHeight="0.5dp"/>
+    </LinearLayout>
+</RelativeLayout>

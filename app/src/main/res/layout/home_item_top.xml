@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+    <RelativeLayout
+        android:id="@+id/rl_home_top"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_banner"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:riv_corner_radius="8dp"/>
+        <ImageView
+            android:id="@+id/iv_close"
+            android:padding="10dp"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:src="@drawable/home_btn_close_banner"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

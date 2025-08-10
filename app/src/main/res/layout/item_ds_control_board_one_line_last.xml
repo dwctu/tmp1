@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/user_img"
+        android:background="@drawable/default_ds_more_people_bg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="11sp"
+        android:textColor="@color/text_color_65"
+        android:gravity="center"
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03:25"
+        app:layout_constraintBottom_toBottomOf="@+id/user_img"
+        app:layout_constraintLeft_toLeftOf="@+id/user_img"
+        app:layout_constraintRight_toRightOf="@+id/user_img"
+        app:layout_constraintTop_toTopOf="@+id/user_img"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

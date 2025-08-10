@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.MyActionBar
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:back="true"
+        app:title="圆角"/>
+    <com.wear.widget.roundwidget.SkinRoundAutoFrameLayout
+        android:layout_gravity="center"
+        android:background="@color/lvs_ui_standard_systemBackground2"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        style="@style/lvs_ui_standard_stroke_regular_radius_24px">
+        <com.wear.widget.roundwidget.SkinRoundAutoFrameLayout
+            android:layout_gravity="center"
+            android:background="@color/lvs_ui_standard_systemBackground3"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            style="@style/lvs_ui_standard_stroke_regular_radius_20px">
+            <com.wear.widget.roundwidget.SkinRoundAutoFrameLayout
+                android:layout_gravity="center"
+                android:background="@color/lvs_ui_standard_systemBackgroundTooltip"
+                android:layout_width="210dp"
+                android:layout_height="210dp"
+                style="@style/lvs_ui_standard_stroke_regular_radius_16px">
+                <com.wear.widget.roundwidget.SkinRoundAutoFrameLayout
+                    android:layout_gravity="center"
+                    android:background="@color/lvs_ui_standard_systemText4"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    style="@style/lvs_ui_standard_stroke_regular_radius_12px">
+                    <com.wear.widget.roundwidget.SkinRoundAutoFrameLayout
+                        android:layout_gravity="center"
+                        android:background="@color/lvs_ui_standard_systemText3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        style="@style/lvs_ui_standard_stroke_regular_radius_8px"/>
+                </com.wear.widget.roundwidget.SkinRoundAutoFrameLayout>
+            </com.wear.widget.roundwidget.SkinRoundAutoFrameLayout>
+        </com.wear.widget.roundwidget.SkinRoundAutoFrameLayout>
+    </com.wear.widget.roundwidget.SkinRoundAutoFrameLayout>
+</LinearLayout>

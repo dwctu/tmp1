@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundAutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:tag="layout/item_report_choose_img_0"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <com.wear.widget.roundwidget.SkinRoundImageView
+        android:id="@+id/img_report"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="@dimen/dp_6"
+        android:layout_marginRight="9dp"
+        android:scaleType="centerCrop"
+        app:rRadius="@dimen/dp_12"/>
+    <com.wear.widget.roundwidget.SkinRoundImageView
+        android:id="@+id/img_delete"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/icon_report_close"
+        android:layout_alignParentRight="true"/>
+</com.wear.widget.roundwidget.SkinRoundAutoRelativeLayout>

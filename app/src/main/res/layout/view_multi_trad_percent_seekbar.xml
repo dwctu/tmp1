@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="11sp"
+        android:textColor="@color/text_color_45"
+        android:gravity="center"
+        android:id="@+id/multi_seekbar_precent_pro"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="0%"/>
+    <com.wear.widget.control.multiToys.MultiTradSeekBar
+        android:gravity="center_horizontal"
+        android:id="@+id/multi_seekbar_precent_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/multi_seekbar_precent_pro"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

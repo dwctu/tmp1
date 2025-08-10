@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/card_natural_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/text_color_85"
+            android:gravity="center"
+            android:id="@+id/from_album"
+            android:background="@drawable/card_status_bg"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/chat_pic_album"
+            android:textAlignment="center"/>
+        <View style="@style/h_divider_line_light"/>
+        <TextView
+            android:textColor="@color/text_color_85"
+            android:gravity="center"
+            android:id="@+id/from_camera"
+            android:background="@drawable/card_status_bg"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/common_pic_camera"
+            android:textAlignment="center"/>
+        <View
+            android:background="@drawable/card_natural_bg"
+            android:layout_height="5dp"
+            style="@style/h_divider_line"/>
+        <Button
+            android:textColor="@color/text_color_85"
+            android:id="@+id/delete_avatar"
+            android:background="@drawable/card_status_bg"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/common_cancel"/>
+    </LinearLayout>
+</LinearLayout>

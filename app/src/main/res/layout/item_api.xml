@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/userinfo"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/app_info"
+        android:id="@+id/tv_api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/common_user_info"
+        android:lineSpacingExtra="10dp"
+        android:layout_marginStart="@dimen/dp_8"/>
+</LinearLayout>

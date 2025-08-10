@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape>
+            <gradient
+                android:startColor="@color/buttom_select_background"
+                android:endColor="@color/buttom_select_background"
+                android:angle="270"/>
+            <corners android:radius="4dp"/>
+            <padding
+                android:left="10dp"
+                android:top="2dp"
+                android:right="10dp"
+                android:bottom="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:state_focused="false"
+        android:state_enabled="false">
+        <shape>
+            <gradient
+                android:startColor="@color/diff_help_buttom_un_select_background"
+                android:endColor="@color/diff_help_buttom_un_select_background"
+                android:angle="270"/>
+            <corners android:radius="4dp"/>
+            <padding
+                android:left="10dp"
+                android:top="2dp"
+                android:right="10dp"
+                android:bottom="2dp"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.roundwidget.SkinRoundAutoLinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/remoteControl"
+        android:background="@color/lvs_ui_standard_systemBackground4"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginLeft="32px"
+        android:layout_marginTop="24px"
+        android:layout_marginRight="32px"
+        style="@style/lvs_ui_standard_radius_48px">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="48px"
+            android:src="@drawable/home_item_remote"/>
+        <skin.support.widget.SkinAutoLinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="48px">
+            <com.wear.widget.MediumBoldTextView
+                android:textSize="36px"
+                android:textStyle="bold"
+                android:textColor="@color/lvs_ui_standard_systemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/closeRange_remoteControl"/>
+            <com.wear.widget.MediumBoldTextView
+                android:textSize="28px"
+                android:textColor="@color/lvs_ui_standard_systemText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:text="@string/new_homepage_v2_pattern_des"
+                app:textStrokeWidth="regular"/>
+        </skin.support.widget.SkinAutoLinearLayout>
+    </com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>
+</skin.support.widget.SkinAutoLinearLayout>

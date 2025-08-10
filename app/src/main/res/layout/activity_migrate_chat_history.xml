@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.MyActionBar
+        android:id="@+id/actionbar"
+        android:background="#d1347e"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:back="true"
+        app:title="@string/settings_chat_migration"/>
+    <RelativeLayout
+        android:id="@+id/rl_chat_migrate"
+        android:background="@drawable/standard_card_3_bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp">
+        <com.wear.widget.MediumBoldTextView
+            android:textSize="16sp"
+            android:textColor="@color/diff_text_color_65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/migrate_chat_to_another_device"
+            android:layout_centerVertical="true"
+            app:textStrokeWidth="regular"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/item_enter"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

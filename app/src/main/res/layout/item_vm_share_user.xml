@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_user_head"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:src="#f78789"/>
+    <TextView
+        android:textSize="32px"
+        android:textColor="@color/lvs_ui_standard_systemText2"
+        android:id="@+id/tv_num"
+        android:background="@drawable/icon_more"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</skin.support.widget.SkinAutoRelativeLayout>

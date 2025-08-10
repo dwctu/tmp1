@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/roulette_match_success_end"
+        android:endColor="@color/roulette_match_success_start"
+        android:angle="90"/>
+    <corners android:radius="18dp"/>
+</shape>

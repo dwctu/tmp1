@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/color_primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.MyActionBar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        bar:back="true"
+        bar:title="@string/closeRange_remoteControl"/>
+    <View
+        android:background="@color/remote_control_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <include layout="@layout/remote_multi_toy_control"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/lvs_ui_standard_systemBackground"
+    android:paddingLeft="24dp"
+    android:paddingTop="30dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="30dp"
+    android:layout_width="311dp"
+    android:layout_height="wrap_content"
+    app:rRadius="8dp">
+    <TextView
+        android:textColor="@color/lvs_ui_standard_systemText"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lovense Title"
+        style="@style/lvs_ui_standard_text_title"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/lvs_ui_standard_systemText2"
+        android:gravity="center"
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="It’s your turn to control Verna Schmidt. Proceed to control?"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        style="@style/lvs_ui_standard_text_body"/>
+    <com.wear.widget.roundwidget.SkinRoundTextView
+        android:id="@+id/tv_negative"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/common_cancel"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tv_positive"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content"
+        style="@style/lvs_ui_standard_button_fill_large"/>
+    <com.wear.widget.roundwidget.SkinRoundTextView
+        android:id="@+id/tv_positive"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/common_ok"
+        app:layout_constraintLeft_toRightOf="@+id/tv_negative"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content"
+        style="@style/lvs_ui_standard_button_brand_gradient_large"/>
+</com.wear.widget.roundwidget.SkinRoundConstraintLayout>

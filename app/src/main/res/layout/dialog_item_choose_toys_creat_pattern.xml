@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/common_dialog_bg_color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp">
+    <FrameLayout
+        android:id="@+id/fl_toy"
+        android:background="@drawable/create_pattern_dialog_item_bg"
+        android:layout_width="45dp"
+        android:layout_height="45dp">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textStyle="bold"
+            android:textColor="@color/create_pattern_dialog_item_text"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/tv_toy_name"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            app:autoSizeMaxTextSize="12sp"
+            app:autoSizeMinTextSize="4sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"/>
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/iv_toy_more"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mypattern_list_more"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@anim/passcode_error_cycle">
+    <translate
+        android:duration="300"
+        android:fromXDelta="0"
+        android:toXDelta="-10"
+        android:fromYDelta="0"
+        android:toYDelta="0"/>
+    <translate
+        android:duration="300"
+        android:startOffset="300"
+        android:fromXDelta="0"
+        android:toXDelta="10"
+        android:fromYDelta="0"
+        android:toYDelta="0"/>
+    <translate
+        android:duration="300"
+        android:startOffset="600"
+        android:fromXDelta="0"
+        android:toXDelta="-10"
+        android:fromYDelta="0"
+        android:toYDelta="0"/>
+    <translate
+        android:duration="300"
+        android:startOffset="900"
+        android:fromXDelta="0"
+        android:toXDelta="10"
+        android:fromYDelta="0"
+        android:toYDelta="0"/>
+</set>

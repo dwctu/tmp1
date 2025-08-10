@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:padding="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/root_layout"
+            android:background="@drawable/menu_more_up2"
+            android:layout_width="108dp"
+            android:layout_height="45dp">
+            <TextView
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/chat_long_click_menu"
+                android:gravity="center"
+                android:id="@+id/action_row_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reply_find_in_chat"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

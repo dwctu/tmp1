@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rly"
+    android:paddingTop="@dimen/dp_5"
+    android:paddingRight="@dimen/dp_48"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.wear.widget.TriangleView
+        android:layout_gravity="right"
+        android:id="@+id/triangleView"
+        android:layout_width="16px"
+        android:layout_height="12px"
+        android:layout_marginRight="40px"/>
+    <com.wear.widget.roundwidget.SkinRoundAutoRelativeLayout
+        android:gravity="center_horizontal"
+        android:background="@color/lvs_ui_standard_systemBackgroundTooltip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        style="@style/lvs_ui_standard_radius_16px">
+        <TextView
+            android:textSize="28px"
+            android:textColor="@color/lvs_ui_standard_systemTextAccent"
+            android:gravity="center_horizontal"
+            android:id="@+id/msgTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:text="@string/notification_no_toy_connected"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="24px"
+            android:layout_marginEnd="24px"/>
+    </com.wear.widget.roundwidget.SkinRoundAutoRelativeLayout>
+</skin.support.widget.SkinAutoLinearLayout>

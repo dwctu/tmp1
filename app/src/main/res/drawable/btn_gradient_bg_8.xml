@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:startColor="@color/color_login_btm_bg_66"
+                android:endColor="@color/color_login_btm_bg2"
+                android:angle="180"/>
+            <corners
+                android:topLeftRadius="@dimen/dp_8"
+                android:topRightRadius="@dimen/dp_8"
+                android:bottomLeftRadius="@dimen/dp_8"
+                android:bottomRightRadius="@dimen/dp_8"/>
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <gradient
+                android:startColor="@color/color_vibemate_main_7739CC"
+                android:endColor="@color/color_vibemate_secondary_C630A9"
+                android:angle="180"/>
+            <corners
+                android:topLeftRadius="@dimen/dp_8"
+                android:topRightRadius="@dimen/dp_8"
+                android:bottomLeftRadius="@dimen/dp_8"
+                android:bottomRightRadius="@dimen/dp_8"/>
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <gradient
+                android:startColor="@color/btn_gray_bg_color_343434"
+                android:endColor="@color/btn_gray_bg_color_343434"
+                android:angle="180"/>
+            <corners
+                android:topLeftRadius="@dimen/dp_8"
+                android:topRightRadius="@dimen/dp_8"
+                android:bottomLeftRadius="@dimen/dp_8"
+                android:bottomRightRadius="@dimen/dp_8"/>
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"/>
+        </shape>
+    </item>
+</selector>

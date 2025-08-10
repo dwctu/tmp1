@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/item_connections_letter_0"
+    android:background="@color/lvs_ui_standard_systemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.wear.widget.roundwidget.SkinRoundTextView
+        android:textSize="28px"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36px"
+        android:layout_marginTop="24px"
+        android:layout_marginBottom="8px"/>
+    <View
+        android:id="@+id/bottom_line"
+        android:background="@color/lvs_ui_standard_systemStrokeRegular"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</skin.support.widget.SkinAutoLinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="28px"
+        android:textColor="@color/lvs_ui_standard_systemText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32px"
+        android:layout_marginBottom="72px"
+        android:text="@string/connections_no_requests"
+        android:layout_marginStart="@dimen/dp_16"/>
+</skin.support.widget.SkinAutoFrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/item"
+    android:background="@drawable/conner8_colorf7f8f9"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_12"
+    android:layout_marginTop="@dimen/dp_6"
+    android:layout_marginRight="@dimen/dp_12"
+    android:layout_marginBottom="@dimen/dp_6">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/vm_color_text_00"
+        android:gravity="center"
+        android:id="@+id/toy_mytoyitem2_nameiv"
+        android:background="@drawable/toy_mytoyitem2bg"
+        android:paddingLeft="@dimen/dp_5"
+        android:paddingRight="@dimen/dp_5"
+        android:layout_width="@dimen/dp_48"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:lines="1"
+        android:layout_marginStart="@dimen/dp_24"
+        app:autoSizeMaxTextSize="22sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeTextType="uniform"/>
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_85"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/toy_mytoyitem2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_24"/>
+</LinearLayout>

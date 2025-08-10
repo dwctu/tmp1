@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/item_action_save"
+            android:text="@string/chat_favorite_meun_add"
+            style="@style/sheet_line_item"/>
+        <View
+            android:id="@+id/save_area_line"
+            style="@style/h_divider_line_light"/>
+        <Button
+            android:id="@+id/item_action_forward"
+            android:text="@string/comman_forward"
+            style="@style/sheet_line_item"/>
+        <View style="@style/h_divider_line_light"/>
+        <Button
+            android:id="@+id/item_action_hide"
+            android:text="@string/comman_hide"
+            style="@style/sheet_line_item"/>
+        <View
+            android:id="@+id/hide_area_line"
+            style="@style/h_divider_line_light"/>
+        <Button
+            android:id="@+id/item_action_recall"
+            android:text="@string/comman_recall"
+            style="@style/sheet_line_item"/>
+        <View
+            android:id="@+id/recall_area_line"
+            style="@style/h_divider_line_light"/>
+        <Button
+            android:id="@+id/item_action_delete"
+            android:text="@string/common_delete"
+            style="@style/sheet_line_item"/>
+    </LinearLayout>
+</LinearLayout>

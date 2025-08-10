@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/chat_gpt_sex_select_gradient_start"
+        android:endColor="@color/chat_gpt_sex_select_gradient_end"
+        android:angle="270"
+        android:type="linear"/>
+    <corners
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"/>
+</shape>

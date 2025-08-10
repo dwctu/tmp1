@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/lvs_ui_standard_systemBackground"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rTopRadius="36px">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32px"
+        android:layout_marginTop="64px"
+        android:layout_marginRight="32px"
+        android:layout_marginBottom="64px"/>
+    <com.wear.widget.roundwidget.SkinRoundView
+        android:background="@color/lvs_ui_standard_systemStrokeRegular"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <com.wear.widget.roundwidget.SkinRoundTextView
+        android:textAppearance="@style/lvs_ui_standard_text_title2"
+        android:textColor="@color/lvs_ui_standard_systemText"
+        android:gravity="center"
+        android:id="@+id/cancel_tv"
+        android:paddingTop="35px"
+        android:paddingBottom="35px"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/common_cancel"/>
+</com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>

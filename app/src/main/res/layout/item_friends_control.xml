@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_img_layout"
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_user_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/chat_avatar_default"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_border_color="#333333"
+        app:riv_border_width="0dp"
+        app:riv_corner_radius="4dp"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"/>
+    <TextView
+        android:textColor="#ffffffff"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tv_status"
+        android:background="@drawable/panel_busy_mask"
+        android:visibility="visible"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Busy"
+        android:maxLines="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_user_img"
+        app:layout_constraintLeft_toLeftOf="@+id/iv_user_img"
+        app:layout_constraintRight_toRightOf="@+id/iv_user_img"
+        app:layout_constraintTop_toTopOf="@+id/iv_user_img"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_16"
+    android:paddingBottom="@dimen/dp_16"
+    android:layout_width="64dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="12sp"
+        android:textColor="#ffacb6b7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_12"
+        android:text="@string/velvo_name"/>
+    <com.wear.widget.seekbar.VerticalRangeSeekBar
+        android:id="@+id/vertical_range_seek_bar"
+        android:layout_width="64dp"
+        android:layout_height="match_parent"
+        app:rsb_gravity="center"
+        app:rsb_max="100"
+        app:rsb_min="0"
+        app:rsb_min_interval="20"
+        app:rsb_mode="range"
+        app:rsb_progress_drawable="@drawable/velvo_range_progress"
+        app:rsb_progress_drawable_default="@drawable/velvo_range_progress_default"
+        app:rsb_progress_height="3dp"
+        app:rsb_progress_radius="3dp"
+        app:rsb_thumb_drawable="@drawable/progress_velvo_position_range"/>
+</LinearLayout>

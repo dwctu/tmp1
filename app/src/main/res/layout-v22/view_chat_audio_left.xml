@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start|center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/ll_voice"
+    android:background="@drawable/chat_message_friend_new_text_default"
+    android:paddingLeft="@dimen/dp_12"
+    android:paddingTop="@dimen/dp_10"
+    android:paddingRight="@dimen/dp_12"
+    android:paddingBottom="@dimen/dp_10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="100dp"
+    android:paddingHorizontal="@dimen/dp_12"
+    android:paddingVertical="@dimen/dp_10">
+    <com.airbnb.lottie.LottieAnimationView
+        android:gravity="center_vertical"
+        android:id="@+id/animation_view"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        app:lottie_loop="true"/>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/lvs_ui_standard_systemText"
+        android:gravity="end|center_vertical"
+        android:id="@+id/voice_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:layout_marginStart="5dp"/>
+</LinearLayout>

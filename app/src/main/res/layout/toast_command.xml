@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="80px"
+    android:layout_marginRight="80px">
+    <com.wear.widget.roundwidget.SkinRoundTextView
+        android:textSize="28px"
+        android:ellipsize="end"
+        android:id="@android:id/message"
+        android:paddingLeft="24px"
+        android:paddingTop="19px"
+        android:paddingRight="24px"
+        android:paddingBottom="19px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/lvs_ui_standard_tooltip_radius_16px"/>
+</skin.support.widget.SkinAutoFrameLayout>

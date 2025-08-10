@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/activity_new_toy_0"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.MyActionBar
+        android:id="@+id/app_bar"
+        android:background="@color/bg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:back="true"
+        app:title="@string/common_patterns_toys"/>
+    <include
+        android:id="@+id/newtoy_notoyrlstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/app_bar"
+        layout="@layout/newtoy_notoyrl_layout"/>
+    <include
+        android:id="@+id/newtoy_searchfailedstub"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@+id/app_bar"
+        layout="@layout/newtoy_searchfailed_layout"/>
+    <include
+        android:id="@+id/newtoy_btdisabledstub"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="105dp"
+        android:layout_below="@+id/app_bar"
+        layout="@layout/newtoy_btdisabled_layout"/>
+    <include
+        android:id="@+id/newtoy_toycontentstub"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar"
+        layout="@layout/newtoy_toycontent_layout"/>
+</RelativeLayout>

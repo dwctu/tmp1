@@ -1,0 +1,35 @@
+package org.jivesoftware.smackx.pubsub;
+
+import org.jivesoftware.smack.packet.ExtensionElement;
+
+/* loaded from: classes5.dex */
+public class SimplePayload implements ExtensionElement {
+    private final String elemName;
+    private final String ns;
+    private final CharSequence payload;
+
+    public SimplePayload(String str, String str2, CharSequence charSequence) {
+        this.elemName = str;
+        this.payload = charSequence;
+        this.ns = str2;
+    }
+
+    @Override // org.jivesoftware.smack.packet.NamedElement
+    public String getElementName() {
+        return this.elemName;
+    }
+
+    @Override // org.jivesoftware.smack.packet.ExtensionElement
+    public String getNamespace() {
+        return this.ns;
+    }
+
+    public String toString() {
+        return getClass().getName() + "payload [" + ((Object) toXML()) + "]";
+    }
+
+    @Override // org.jivesoftware.smack.packet.Element
+    public CharSequence toXML() {
+        return this.payload;
+    }
+}

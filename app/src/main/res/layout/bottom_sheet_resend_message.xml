@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/resend_message"
+            android:text="@string/message_resend_button"
+            style="@style/sheet_line_item"/>
+        <View style="@style/h_divider_line_light"/>
+        <View
+            android:background="@color/tab_bg"
+            android:layout_height="5dp"
+            style="@style/h_divider_line"/>
+        <Button
+            android:id="@+id/cancel_resend"
+            android:text="@string/common_cancel"
+            style="@style/sheet_line_item"/>
+    </LinearLayout>
+</LinearLayout>

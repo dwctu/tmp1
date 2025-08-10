@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary_light"
+            android:gravity="center"
+            android:background="@drawable/round_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/str_unblock_tip"/>
+        <View
+            android:background="@color/chat_top_board_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+        <TextView
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/orgy_background_color"
+            android:gravity="center"
+            android:id="@+id/tv_unblock"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/black_contacts_select_unblock"
+            style="@style/sheet_line_item"/>
+    </LinearLayout>
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/common_cancel"
+        style="@style/sheet_line_item"/>
+</LinearLayout>

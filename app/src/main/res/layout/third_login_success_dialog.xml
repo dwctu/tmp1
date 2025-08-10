@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/add_to_play_list_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <skin.support.widget.SkinAutoRelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="140px"
+        android:layout_height="140px"
+        android:layout_marginTop="80px">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user_head"
+            android:layout_width="140px"
+            android:layout_height="140px"
+            android:src="@drawable/logo_remote"
+            android:layout_centerHorizontal="true"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:src="@drawable/google"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+    </skin.support.widget.SkinAutoRelativeLayout>
+    <TextView
+        android:textSize="28px"
+        android:textColor="@color/lvs_ui_standard_systemText"
+        android:gravity="center"
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48px"
+        android:layout_marginTop="36px"
+        android:layout_marginRight="48px"
+        android:text="Your account has been created. Please use the option to reset your password ASAP. This will allow you to log in either with your Google account or via email and password."/>
+    <com.wear.widget.roundwidget.SkinRoundButton
+        android:textSize="32px"
+        android:textColor="@color/lvs_ui_standard_systemTextAccent"
+        android:id="@+id/btn_got_it"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:layout_marginLeft="48px"
+        android:layout_marginTop="32px"
+        android:layout_marginRight="48px"
+        android:layout_marginBottom="52px"
+        android:text="Got it"
+        style="@style/lvs_ui_standard_brand_gradient_radius_20px"/>
+</skin.support.widget.SkinAutoLinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp"/>
+                    <solid android:color="@color/buttom_select_background"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="4dp"
+                        android:color="@color/buttom_select_background"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp"/>
+                    <solid android:color="@color/tab_normal_background"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="4dp"
+                        android:color="@color/tab_normal_background"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

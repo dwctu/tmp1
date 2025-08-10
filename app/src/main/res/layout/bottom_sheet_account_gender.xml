@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/common_male"
+            android:text="@string/common_male"
+            style="@style/sheet_line_item"/>
+        <View style="@style/h_divider_line_light"/>
+        <Button
+            android:id="@+id/common_female"
+            android:text="@string/common_female"
+            style="@style/sheet_line_item"/>
+        <View
+            android:background="@color/text_secondary_light"
+            android:layout_height="5dp"
+            style="@style/h_divider_line"/>
+        <Button
+            android:id="@+id/common_other"
+            android:text="@string/common_other"
+            style="@style/sheet_line_item"/>
+    </LinearLayout>
+</LinearLayout>

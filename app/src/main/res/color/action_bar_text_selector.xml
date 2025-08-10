@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:color="@color/lvs_ui_standard_systemText3"/>
+    <item
+        android:state_enabled="true"
+        android:color="@color/lvs_ui_standard_systemText"/>
+    <item android:color="@color/lvs_ui_standard_systemText3"/>
+</selector>

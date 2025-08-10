@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="func_p_trans">#cce920dc</color>
+    <color name="func_r_trans">#cc00a3ff</color>
+    <color name="func_s_trans">#cc1ac2e2</color>
+    <color name="func_v1_trans">#ccff2d89</color>
+    <color name="func_v2_trans">#cc00a3ff</color>
+    <color name="func_v_trans">#ccff2d89</color>
+    <color name="func_w_trans">#ccf7b500</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/root_layout"
+            android:background="@drawable/menu_more_up"
+            android:layout_width="200dp"
+            android:layout_height="170dp"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/content_layout"
+            android:layout_width="130dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+            <include layout="@layout/menu_sheet_layout_item"/>
+            <include layout="@layout/menu_sheet_layout_line"/>
+            <include layout="@layout/menu_sheet_layout_item"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

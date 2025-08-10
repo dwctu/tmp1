@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/emojis_item_bg_selector"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/gl_layout"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="4dp">
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_gravity="center"
+            android:id="@+id/iv_gifImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/content_icon_picture_loading"
+            android:scaleType="fitCenter"/>
+        <ImageView
+            android:layout_gravity="bottom|right"
+            android:id="@+id/iv_select"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/content_icon_picture_normal"
+            android:scaleType="fitCenter"/>
+    </FrameLayout>
+</LinearLayout>

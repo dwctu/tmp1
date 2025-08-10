@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="top|center_horizontal"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_emojis_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+        <ImageView
+            android:id="@+id/iv_emojis_face"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:src="@drawable/bad_test"
+            android:scaleType="fitCenter"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_view"
+            android:visibility="gone"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:scaleType="fitCenter"
+            app:lottie_loop="true"/>
+        <TextView
+            android:textSize="10sp"
+            android:textColor="@color/text_secondary_light"
+            android:gravity="center"
+            android:id="@+id/tv_emojis_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="Outrage"/>
+    </LinearLayout>
+</FrameLayout>

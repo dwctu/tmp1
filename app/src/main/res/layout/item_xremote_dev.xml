@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.wear.widget.roundwidget.SkinRoundAutoLinearLayout
+        android:gravity="center"
+        android:background="@color/lvs_ui_standard_systemFillRegular"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:rRadius="12dp">
+        <ImageView
+            android:id="@+id/share_iv"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/light_share_linear"
+            android:scaleType="fitXY"/>
+    </com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>
+    <com.wear.widget.roundwidget.SkinRoundTextView
+        android:textAppearance="@style/lvs_ui_standard_text_body"
+        android:textColor="@color/lvs_ui_standard_systemText"
+        android:id="@+id/used_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16px"
+        android:text="@string/comman_forward"/>
+</com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>

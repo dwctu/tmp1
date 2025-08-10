@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:id="@+id/ll_tool_bar"
+        android:background="@drawable/game_common_bg"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="44dp"
+        android:divider="@drawable/game_button_divider"
+        android:showDividers="middle"
+        android:dividerPadding="8dp"
+        android:layout_marginEnd="16dp">
+        <ImageView
+            android:id="@+id/iv_toy_connect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toy_connect"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/iv_game_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_close"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</FrameLayout>

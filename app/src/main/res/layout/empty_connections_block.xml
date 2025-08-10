@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widget.SkinAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.roundwidget.SkinRoundTextView
+        android:textSize="28px"
+        android:textColor="@color/lvs_ui_standard_systemText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360px"
+        android:text="You haven’t blocked anyone."
+        android:drawableTop="@drawable/icon_empty_default"
+        android:drawablePadding="40px"/>
+</skin.support.widget.SkinAutoLinearLayout>

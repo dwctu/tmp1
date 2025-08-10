@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="@dimen/sp_14"
+    android:textColor="@color/selected_item_shape_roulette_setting_text"
+    android:gravity="center"
+    android:tag="layout/item_roulette_selected_0"
+    android:background="@drawable/selected_item_shape_roulette_setting"
+    android:paddingTop="@dimen/dp_8"
+    android:paddingBottom="@dimen/dp_8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/dp_8"/>

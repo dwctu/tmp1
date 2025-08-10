@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/window_background_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wear.widget.MyActionBar
+        android:id="@+id/actionbar_account"
+        android:background="#d1347e"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        bar:back="true"
+        bar:title="@string/setting_black_contacts"
+        bar:withTab="false"/>
+    <ListView
+        android:id="@+id/black_contacts_list"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#20000000"
+        android:dividerHeight="0.1dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="17sp"
+            android:gravity="center"
+            android:id="@+id/list_empty_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/black_contacts_no_block_friends"/>
+    </LinearLayout>
+</LinearLayout>

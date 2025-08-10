@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="alarm_snooze_count">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </array>
+    <array name="alarm_snooze_duration">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </array>
+    <array name="assume_strong_biometrics_prefixes">
+    </array>
+    <array name="chat_action_menu_title">
+        <item>@string/message_notification_type_live</item>
+        <item>@string/message_notification_type_sync</item>
+        <item>@string/main_patterns</item>
+        <item>@string/chat_video</item>
+        <item>@string/chat_voice</item>
+        <item>@string/message_notification_type_alarm</item>
+        <item>@string/pattern_dialog_title</item>
+    </array>
+    <array name="crypto_fingerprint_fallback_prefixes">
+    </array>
+    <array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </array>
+    <array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </array>
+    <array name="g_default_loading_fg">
+        <item>#ffffff</item>
+        <item>#ffffff</item>
+        <item>#ffffff</item>
+        <item>#ffffff</item>
+        <item>#ffffff</item>
+    </array>
+    <array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </array>
+    <array name="markArray">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>100</item>
+    </array>
+    <array name="report_group_notice_content">
+        <item>@string/report_guidelines_text1</item>
+        <item>@string/report_guidelines_text2</item>
+        <item>@string/report_guidelines_text3</item>
+        <item>@string/report_guidelines_text4</item>
+        <item>@string/report_guidelines_description</item>
+    </array>
+    <array name="report_notice_content">
+        <item>@string/report_guidelines_text1</item>
+        <item>@string/report_guidelines_text2</item>
+        <item>@string/report_guidelines_text3</item>
+        <item>@string/report_guidelines_text4</item>
+        <item>@string/report_guidelines_description</item>
+    </array>
+    <array name="report_reason_option">
+        <item>@string/user_report_reason1</item>
+        <item>@string/user_report_reason2</item>
+        <item>@string/user_report_reason3</item>
+        <item>@string/user_report_reason5</item>
+        <item>@string/user_report_reason4</item>
+    </array>
+    <array name="report_reason_option_no_img">
+        <item>@string/user_report_reason1</item>
+        <item>@string/user_report_reason2</item>
+        <item>@string/user_report_reason3</item>
+        <item>@string/user_report_reason4</item>
+    </array>
+</resources>

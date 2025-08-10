@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="14sp"
+        android:textColor="@color/text_color_b45_wo"
+        android:gravity="center"
+        android:id="@+id/tv_tag"
+        android:background="@drawable/shape_pattern_filter"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Lush"
+        android:maxLines="1"
+        app:autoSizeMaxTextSize="14sp"
+        app:autoSizeMinTextSize="9sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"/>
+</LinearLayout>

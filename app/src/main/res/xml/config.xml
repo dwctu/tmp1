@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:vlfdas="http://www.w3.org/ns/widgets"
+    id="com.example.demo"
+    version="1.0.0">
+    <name>Demo
+    </name>
+    <description>Sample Apache Cordova App
+    </description>
+    <author
+        email="dev@cordova.apache.org"
+        href="https://cordova.apache.org">Apache Cordova Team 
+    </author>
+    <content src="index.html"/>
+    <allow-navigation href="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <access origin="*"/>
+    <preference
+        name="loglevel"
+        value="DEBUG"/>
+    <feature name="appGallery">
+        <param
+            name="android-package"
+            value="org.apache.cordova.gallery.XRemotePlugin"/>
+    </feature>
+    <feature name="appGalleryToy">
+        <param
+            name="android-package"
+            value="org.apache.cordova.gallery.XRemoteToyPlugin"/>
+    </feature>
+    <feature name="appBaseInfo">
+        <param
+            name="android-package"
+            value="org.apache.cordova.gallery.AppBaseInfoPlugin"/>
+    </feature>
+    <feature name="Accelerometer">
+        <param
+            name="android-package"
+            value="org.apache.cordova.devicemotion.AccelListener"/>
+    </feature>
+    <feature name="CDVOrientation">
+        <param
+            name="android-package"
+            value="cordova.plugins.screenorientation.CDVOrientation"/>
+    </feature>
+    <feature name="appGalleryDevice">
+        <param
+            name="android-package"
+            value="org.apache.cordova.rotate.RotatePlugin"/>
+    </feature>
+    <feature name="appGalleryFileSystem">
+        <param
+            name="android-package"
+            value="org.apache.cordova.gallery.FileSystemPlugin"/>
+    </feature>
+</widget>

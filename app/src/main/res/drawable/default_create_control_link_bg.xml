@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/bg_create_control_link_color_9"/>
+    <stroke
+        android:width="1px"
+        android:color="@color/dialog_photo_camera_bg_line"/>
+    <corners android:radius="2dp"/>
+</shape>

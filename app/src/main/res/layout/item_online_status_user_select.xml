@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/content_container"
+    android:tag="layout/item_online_status_user_select_0"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:layout_marginLeft="@dimen/dp_24"
+    android:layout_marginRight="@dimen/dp_24">
+    <ImageView
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/online_status_user"/>
+    <com.wear.widget.RadiuImageView
+        android:tag="binding_2"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="@dimen/dp_20"
+        app:radius="5dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_12">
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/text_color_85"
+            android:ellipsize="end"
+            android:tag="binding_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/text_color_85"
+            android:tag="binding_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="second name"/>
+    </LinearLayout>
+</LinearLayout>

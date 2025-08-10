@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wear.widget.roundwidget.SkinRoundAutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/lvs_ui_standard_systemBackgroundTooltip"
+    android:padding="50px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:rRadius="16px">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_warn"/>
+    <TextView
+        android:textSize="28px"
+        android:textColor="@color/lvs_ui_standard_systemTextAccent"
+        android:gravity="center"
+        android:id="@android:id/message"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:text="@string/tip_fail_to_record"/>
+</com.wear.widget.roundwidget.SkinRoundAutoLinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/minimize_right_bg"
+    android:layout_width="60dp"
+    android:layout_height="60dp">
+    <com.wear.widget.SkinLottieAnimationView
+        android:id="@+id/iv_small"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="12dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="ds_dark.json"
+        app:lottie_imageAssetsFolder="images/"
+        app:lottie_loop="true"/>
+    <TextView
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:id="@+id/tv_levitate_time"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="01:12"/>
+</FrameLayout>
