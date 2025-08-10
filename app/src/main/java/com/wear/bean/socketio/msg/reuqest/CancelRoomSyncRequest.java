@@ -1,0 +1,9 @@
+package com.wear.bean.socketio.msg.reuqest;
+
+/* loaded from: classes3.dex */
+public class CancelRoomSyncRequest extends BaseGroupControlRequest {
+    @Override // com.wear.bean.socketio.msg.reuqest.BaseGroupControlRequest, com.wear.bean.socketio.BaseRequestBean, dc.pf2
+    public String getAction() {
+        return "cancelRoomSync";
+    }
+}

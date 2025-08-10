@@ -1,0 +1,18 @@
+package com.wear.bean.event;
+
+/* loaded from: classes3.dex */
+public class EventBusToyF01ModeEvent {
+    public String address;
+
+    public EventBusToyF01ModeEvent(String str) {
+        this.address = str;
+    }
+
+    public String getAddress() {
+        return this.address;
+    }
+
+    public void setAddress(String str) {
+        this.address = str;
+    }
+}

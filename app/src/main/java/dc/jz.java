@@ -1,0 +1,79 @@
+package dc;
+
+import androidx.constraintlayout.core.motion.utils.TypedValues;
+import com.google.android.exoplayer2.extractor.ts.PsExtractor;
+import com.google.android.vending.expansion.downloader.Constants;
+import com.google.firebase.remoteconfig.internal.ConfigFetchHandler;
+import kotlin.Metadata;
+
+/* compiled from: HyttoEum.kt */
+@Metadata(d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0000\n\u0002\u0010\b\n\u0002\b<\b\u0086\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u000f\b\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0002\u0010\u0004R\u0011\u0010\u0002\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006j\u0002\b\u0007j\u0002\b\bj\u0002\b\tj\u0002\b\nj\u0002\b\u000bj\u0002\b\fj\u0002\b\rj\u0002\b\u000ej\u0002\b\u000fj\u0002\b\u0010j\u0002\b\u0011j\u0002\b\u0012j\u0002\b\u0013j\u0002\b\u0014j\u0002\b\u0015j\u0002\b\u0016j\u0002\b\u0017j\u0002\b\u0018j\u0002\b\u0019j\u0002\b\u001aj\u0002\b\u001bj\u0002\b\u001cj\u0002\b\u001dj\u0002\b\u001ej\u0002\b\u001fj\u0002\b j\u0002\b!j\u0002\b\"j\u0002\b#j\u0002\b$j\u0002\b%j\u0002\b&j\u0002\b'j\u0002\b(j\u0002\b)j\u0002\b*j\u0002\b+j\u0002\b,j\u0002\b-j\u0002\b.j\u0002\b/j\u0002\b0j\u0002\b1j\u0002\b2j\u0002\b3j\u0002\b4j\u0002\b5j\u0002\b6j\u0002\b7j\u0002\b8j\u0002\b9j\u0002\b:j\u0002\b;j\u0002\b<j\u0002\b=j\u0002\b>¨\u0006?"}, d2 = {"Lcom/component/dxhyttoutils/lib/data/HyttoEum$ValueKey;", "", "value", "", "(Ljava/lang/String;II)V", "getValue", "()I", "SSL_KEY1", "SSL_KEY2", "SSL_DATA1", "SSL_DATA2", "KEY_STORE1", "KEY_STORE2", "KEY2_STORE1", "KEY2_STORE2", "TOKEN_KEY1", "TOKEN_KEY2", "TOKEN_KEY_IVY1", "TOKEN_KEY_IVY2", "FROM_SERVER_KEY1", "FROM_SERVER_KEY2", "FROM_SERVER_KEY_IVY1", "FROM_SERVER_KEY_IVY2", "TO_SERVER_KEY1", "TO_SERVER_KEY2", "TO_SERVER_KEY_IVY1", "TO_SERVER_KEY_IVY2", "CHAT_TRANS_KEY1", "CHAT_TRANS_KEY2", "CHAT_TRANS_KEY_IVY1", "CHAT_TRANS_KEY_IVY2", "DATE_TRANS_KEY1", "DATE_TRANS_KEY2", "DATE_TRANS_KEY_IVY1", "DATE_TRANS_KEY_IVY2", "EXCEPTION_LOG_KEY1", "EXCEPTION_LOG_KEY2", "EXCEPTION_LOG_KEY_IVY1", "EXCEPTION_LOG_KEY_IVY2", "LOCAL_DATABASE_KEY1", "LOCAL_DATABASE_KEY2", "LOCAL_DATABASE_KEY_IVY1", "LOCAL_DATABASE_KEY_IVY2", "NEW_LOG_KEY1", "NEW_LOG_KEY2", "NEW_LOG_KEY_IVY1", "NEW_LOG_KEY_IVY2", "INSTALL_AES_KEY1", "INSTALL_AES_KEY2", "INSTALL_AES_KEY_IVY1", "INSTALL_AES_KEY_IVY2", "CAM_IO_KEY_TEST1", "CAM_IO_KEY_TEST2", "CAM_IO_KEY_TEST_IVY1", "CAM_IO_KEY_TEST_IVY2", "CAM_IO_KEY_PUBLIC1", "CAM_IO_KEY_PUBLIC2", "CAM_IO_KEY_PUBLIC_IVY1", "CAM_IO_KEY_PUBLIC_IVY2", "ZIP_PWD1", "ZIP_PWD2", "COMMON_DB_PWD_KEY1", "COMMON_DB_PWD_KEY2", "hytto-apps.android.components.base:dxhyttoutils"}, k = 1, mv = {1, 6, 0}, xi = 48)
+/* loaded from: classes.dex */
+public enum jz {
+    SSL_KEY1(101),
+    SSL_KEY2(102),
+    SSL_DATA1(201),
+    SSL_DATA2(202),
+    KEY_STORE1(301),
+    KEY_STORE2(302),
+    KEY2_STORE1(303),
+    KEY2_STORE2(304),
+    TOKEN_KEY1(401),
+    TOKEN_KEY2(TypedValues.CycleType.TYPE_VISIBILITY),
+    TOKEN_KEY_IVY1(403),
+    TOKEN_KEY_IVY2(404),
+    FROM_SERVER_KEY1(405),
+    FROM_SERVER_KEY2(Constants.STATUS_NOT_ACCEPTABLE),
+    FROM_SERVER_KEY_IVY1(407),
+    FROM_SERVER_KEY_IVY2(408),
+    TO_SERVER_KEY1(409),
+    TO_SERVER_KEY2(410),
+    TO_SERVER_KEY_IVY1(Constants.STATUS_LENGTH_REQUIRED),
+    TO_SERVER_KEY_IVY2(Constants.STATUS_PRECONDITION_FAILED),
+    CHAT_TRANS_KEY1(413),
+    CHAT_TRANS_KEY2(414),
+    CHAT_TRANS_KEY_IVY1(415),
+    CHAT_TRANS_KEY_IVY2(TypedValues.CycleType.TYPE_PATH_ROTATE),
+    DATE_TRANS_KEY1(417),
+    DATE_TRANS_KEY2(418),
+    DATE_TRANS_KEY_IVY1(419),
+    DATE_TRANS_KEY_IVY2(TypedValues.CycleType.TYPE_EASING),
+    EXCEPTION_LOG_KEY1(TypedValues.CycleType.TYPE_WAVE_PHASE),
+    EXCEPTION_LOG_KEY2(426),
+    EXCEPTION_LOG_KEY_IVY1(427),
+    EXCEPTION_LOG_KEY_IVY2(428),
+    LOCAL_DATABASE_KEY1(ConfigFetchHandler.HTTP_TOO_MANY_REQUESTS),
+    LOCAL_DATABASE_KEY2(430),
+    LOCAL_DATABASE_KEY_IVY1(431),
+    LOCAL_DATABASE_KEY_IVY2(432),
+    NEW_LOG_KEY1(433),
+    NEW_LOG_KEY2(434),
+    NEW_LOG_KEY_IVY1(435),
+    NEW_LOG_KEY_IVY2(436),
+    INSTALL_AES_KEY1(437),
+    INSTALL_AES_KEY2(438),
+    INSTALL_AES_KEY_IVY1(439),
+    INSTALL_AES_KEY_IVY2(440),
+    CAM_IO_KEY_TEST1(PsExtractor.MPEG_PROGRAM_END_CODE),
+    CAM_IO_KEY_TEST2(PsExtractor.PACK_START_CODE),
+    CAM_IO_KEY_TEST_IVY1(443),
+    CAM_IO_KEY_TEST_IVY2(444),
+    CAM_IO_KEY_PUBLIC1(445),
+    CAM_IO_KEY_PUBLIC2(446),
+    CAM_IO_KEY_PUBLIC_IVY1(447),
+    CAM_IO_KEY_PUBLIC_IVY2(448),
+    ZIP_PWD1(449),
+    ZIP_PWD2(450),
+    COMMON_DB_PWD_KEY1(TypedValues.PositionType.TYPE_TRANSITION_EASING),
+    COMMON_DB_PWD_KEY2(TypedValues.PositionType.TYPE_DRAWPATH);
+
+    private final int value;
+
+    jz(int i) {
+        this.value = i;
+    }
+
+    public final int getValue() {
+        return this.value;
+    }
+}
