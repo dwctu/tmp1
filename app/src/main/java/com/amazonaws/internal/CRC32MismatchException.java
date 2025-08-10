@@ -1,0 +1,8 @@
+package com.amazonaws.internal;
+
+import java.io.IOException;
+
+/* loaded from: classes.dex */
+public class CRC32MismatchException extends IOException {
+    private static final long serialVersionUID = 1;
+}

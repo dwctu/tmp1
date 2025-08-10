@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--
+    Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+        https://cordova.apache.org/docs/en/latest/
+    Some notes:
+        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+    -->
+    <meta content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"
+          http-equiv="Content-Security-Policy">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="no" name="msapplication-tap-highlight">
+    <meta content="initial-scale=1, width=device-width, viewport-fit=cover" name="viewport">
+    <meta content="light dark" name="color-scheme">
+    <link href="css/index.css" rel="stylesheet">
+    <title>Hello World</title>
+    <script src="js/vconsole.js"></script>
+</head>
+<body>
+<div class="app">
+    <h1>Apache Cordova</h1>
+    <div class="blink" id="deviceready">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
+    </div>
+    <div class="line">
+        <button id="getAppBaseInfo">获取app基本信息</button>
+    </div>
+    <div class="line">
+        <button id="send_command">发送指令</button>
+    </div>
+
+    <div class="line">
+        <button id="authorized_login">授权登录</button>
+    </div>
+
+    <div class="line">
+        <button id="open_my_toys_dialog">打开我的玩具</button>
+    </div>
+
+    <div class="line">
+        <button id="set_toys_change_listener">设置玩具监听变化</button>
+    </div>
+
+    <div class="line">
+        <button id="vibrateShortButton">VibrateHeavy</button>
+    </div>
+    <div class="line">
+        <button id="vibrateShort1Button">VibrateMedium</button>
+    </div>
+    <div class="line">
+        <button id="vibrateShort2Button">VibrateLight</button>
+    </div>
+    <div class="line">
+        <button id="vibrateLongButton">VibrateLong</button>
+    </div>
+    <div class="line">
+        <button id="landscapeButton">LANDSCAPE</button>
+    </div>
+    <div class="line">
+        <button id="portraitButton">PORTRAIT</button>
+    </div>
+
+    <div class="line">
+        <button id="startWatchShake">startWatchShake</button>
+    </div>
+
+    <div class="line">
+        <button id="stopWatchShake">stopWatchShake</button>
+    </div>
+
+    <div class="line">
+        <button id="getCurrentAcceleration">getCurrentAcceleration</button>
+    </div>
+
+    <div class="line">
+        <button id="watchAcceleration">watchAcceleration</button>
+    </div>
+
+    <div class="line">
+        <button id="clearWatch">clearWatch</button>
+    </div>
+
+
+    <div class="line">
+        <button id="startFeedbackMode">startFeedbackMode</button>
+    </div>
+
+    <div class="line">
+        <button id="stopFeedbackMode">stopFeedbackMode</button>
+    </div>
+
+    <div class="line">
+        <button id="getAuthCode">getAuthCode</button>
+    </div>
+
+</div>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+    let vConsole = new VConsole();
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

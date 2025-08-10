@@ -1,0 +1,54 @@
+package com.bumptech.glide.integration.webp;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import com.bumptech.glide.Registry;
+import com.bumptech.glide.integration.webp.decoder.WebpDrawable;
+import dc.cj;
+import dc.eg;
+import dc.fg;
+import dc.fl;
+import dc.gg;
+import dc.hg;
+import dc.ig;
+import dc.jg;
+import dc.kf;
+import dc.kg;
+import dc.lf;
+import dc.ng;
+import dc.og;
+import dc.zi;
+import dc.zn;
+import java.io.InputStream;
+import java.nio.ByteBuffer;
+
+@Deprecated
+/* loaded from: classes.dex */
+public class WebpGlideModule implements zn {
+    @Override // dc.yn
+    public void a(Context context, lf lfVar) {
+    }
+
+    @Override // dc.co
+    public void b(Context context, kf kfVar, Registry registry) {
+        Resources resources = context.getResources();
+        cj cjVarF = kfVar.f();
+        zi ziVarE = kfVar.e();
+        ng ngVar = new ng(registry.g(), resources.getDisplayMetrics(), cjVarF, ziVarE);
+        eg egVar = new eg(ziVarE, cjVarF);
+        gg ggVar = new gg(ngVar);
+        jg jgVar = new jg(ngVar, ziVarE);
+        hg hgVar = new hg(context, ziVarE, cjVarF);
+        registry.q("Bitmap", ByteBuffer.class, Bitmap.class, ggVar);
+        registry.q("Bitmap", InputStream.class, Bitmap.class, jgVar);
+        registry.q("BitmapDrawable", ByteBuffer.class, BitmapDrawable.class, new fl(resources, ggVar));
+        registry.q("BitmapDrawable", InputStream.class, BitmapDrawable.class, new fl(resources, jgVar));
+        registry.q("Bitmap", ByteBuffer.class, Bitmap.class, new fg(egVar));
+        registry.q("Bitmap", InputStream.class, Bitmap.class, new ig(egVar));
+        registry.p(ByteBuffer.class, WebpDrawable.class, hgVar);
+        registry.p(InputStream.class, WebpDrawable.class, new kg(hgVar, ziVarE));
+        registry.o(WebpDrawable.class, new og());
+    }
+}
