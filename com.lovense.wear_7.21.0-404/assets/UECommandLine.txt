@@ -1,1 +1,0 @@
-../../../MelodySideScroller/MelodySideScroller.uproject
